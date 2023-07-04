@@ -23,7 +23,7 @@ function playRound(player, computer) {
 
 
 for(let i = 0; i < 5; i++) {
-    let playerSelection = prompt("Please enter rock, paper or scissors to play against the computer: ");
+    let playerSelection = prompt("Please enter rock, paper or scissors to play against the computer(You will play five times): ");
     playerSelection  = (/rock/i).test(playerSelection) ? 1 : (/paper/i).test(playerSelection) ? 2 : (/scissors/i).test(playerSelection) ? 3 : location.reload();
     let computerSelection = Math.floor(Math.random()*(3)) + 1;
     console.log(playRound(playerSelection, computerSelection));
