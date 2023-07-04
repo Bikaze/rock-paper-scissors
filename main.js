@@ -1,4 +1,4 @@
-alert("Open the console to see results: Option + Comman + J(on macOS) or Ctrl + Shift + J(on Windows/Linux"); 
+alert("Open the console to see results: Option + Command + J(on macOS) or Ctrl + Shift + J(on Windows/Linux"); 
 
 let wins = 0;
 let loses = 0;
